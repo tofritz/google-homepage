@@ -6,10 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Google Search</title>
+    <link href="styles/main.css" rel="stylesheet">
 </head>
 
 <body>
-    <img src="images/google-logo.png" alt="Google Logo">
+    <div class="header">
+        <ul class="left-aligned">
+            <a href="">About</a>
+            <a href="">Store</a>
+        </ul>
+        <ul class="right-aligned">
+            <a href="">Gmail</a>
+            <a href="">Images</a>
+            <a href="">Apps</a>
+            <a href="">Sign in</a>
+        </ul>
+    </div>
+    <div class="content">
+        <img src="images/google-logo.png" alt="Google Logo">
+        <div class="search-bar">
+            <form action="search.php" method="GET">
+                <input type="text" name="search-bar" id="search-bar">
+                <input type="button" value="V">
+            </form>
+        </div>
+        <div class="search-buttons">
+            <form action="search.php" method="GET">
+                <input type="submit" value="Google Search" id="google-search-button">
+                <input type="submit" value="I'm Feeling Lucky" id="feeling-lucky-button">
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <ul class="left-aligned">
+            <a href="">Advertising</a>
+            <a href="">Business</a>
+            <a href="">How Search works</a>
+        </ul>
+        <ul class="right-aligned">
+            <a href="">Privacy</a>
+            <a href="">Terms</a>
+            <a href="">Settings</a>
+        </ul>
+    </div>
 </body>
 
 </html>

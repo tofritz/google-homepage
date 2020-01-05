@@ -1,0 +1,35 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+body {
+    
+}
+
+.header{
+    display: block;
+    padding-bottom: 30%;
+}
+
+.search{
+    display: block;
+}
+
+.footer{    
+    display: block;
+}
+
+.left-aligned{
+    float: left;
+    padding-left: 0px;
+}
+
+.right-aligned{
+    float: right;
+}
+
+.content{
+    text-align: -webkit-center;
+    padding-bottom: 35%;
+}
